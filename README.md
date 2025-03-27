@@ -30,30 +30,6 @@ The scraped data is stored locally in CSV format for further processing.
 
 ---
 
-## Installation and Usage
-### Prerequisites:
-Ensure you have Python 3 installed along with the following libraries:
-```bash
-pip install requests beautifulsoup4 pandas numpy matplotlib
-```
-
-### Steps to Run:
-1. Clone the repository:
-   ```bash
-   git clone [your-repo-link]
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd [project-directory]
-   ```
-3. Run the web scraper to collect data:
-   ```bash
-   python scraper.py
-   ```
-4. Import the cleaned CSV file into Tableau to generate interactive dashboards.
-
----
-
 ## Tableau Visualization
 The Tableau dashboard includes:
 1. **Tree Map**: Interactive Tree Map or payments that can be used as a filter
